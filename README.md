@@ -1,0 +1,3 @@
+# Handling NA values when calculating the mean in R
+This repository demonstrates a common error in R when calculating the mean of a vector containing `NA` (Not Available) values. The initial code produces an `NA` result because the `mean()` function by default treats `NA` values as missing and propagates the `NA` to the result.
+The solution demonstrates how to correctly handle `NA` values during mean calculation, either by removing them or using a method like `na.rm = TRUE` within the `mean()` function.
